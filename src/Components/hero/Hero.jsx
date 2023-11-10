@@ -21,7 +21,6 @@ export default function Hero() {
           Currently available for work opportunities.
         </p>
       </div>
-
       <div className="flex gap-6 ">
         <button className="font-medium border border-green rounded-full text-green px-4 py-[0.6rem] ">
           Contact me
@@ -29,6 +28,7 @@ export default function Hero() {
         <button className="font-medium border border-green rounded-full text-green px-8 py-[0.6rem]">
           CV
         </button>
+        
       </div>
     </section>
   );
