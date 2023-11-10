@@ -1,6 +1,6 @@
 import { useState } from "react";
-import githublogo from "../../assets/images/github-icon.svg";
-import linkedinlogo from "../../assets/images/linkedin-icon.svg";
+import githublogo from "../../assets/images/header/github-icon.svg";
+import linkedinlogo from "../../assets/images/header/linkedin-icon.svg";
 import Hamburger from "./Hamburger";
 
 export default function Navbar() {
