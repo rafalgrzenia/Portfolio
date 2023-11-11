@@ -8,7 +8,8 @@ export default {
     extend: {
       colors: {
         green: "#13C239",
-        white: "#F5F5F5"
+        white: "#F5F5F5",
+        techstackButton: "#1F1F1F",
       }
     },
   },

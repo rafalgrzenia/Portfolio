@@ -19,7 +19,7 @@ export default function Navbar() {
       <nav
         className={`flex ${
           isHamburgerOpen ? "right-0" : "right-[-147px]"
-        } justify-center items-center px-6 py-6 text-center absolute top-20 transition-all duration-700 border`}
+        } justify-center items-center px-6 py-6 text-center absolute top-20 transition-all duration-700  bg-[rgba(0,0,0,0.8)] `}
       >
         <ul className={`flex flex-col gap-[3.75rem] `}>
           <li className="text-2xl">
