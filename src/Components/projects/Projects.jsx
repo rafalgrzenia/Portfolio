@@ -8,6 +8,11 @@ export default function Projects() {
       {projects.map((project) => (
         <Project key={project.id} {...project} />
       ))}
+      <a href="https://github.com/rafalgrzenia?tab=repositories">
+        <button className="border border-green text-green py-[0.6rem] px-5 rounded-full">
+          More Projects
+        </button>
+      </a>
     </section>
   );
 }
