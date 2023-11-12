@@ -1,11 +1,38 @@
 [
   {
     "id": 1,
-    "title": "Personal Portfolio",
+    "title": "Portfolio",
     "imageUrl": "src/assets/images/projects/projects-portfolio.jpg",
-    "description": "This is my first project of the website. I build it for CNC company. Site was ment to be easy and kept in minimalistic manner.",
+    "description": "This project is my portfolio which I designed using Figma",
     "githubUrl": "https://github.com/rafalgrzenia/Metallica-cnc.pl",
     "websiteUrl": "https://rafalgrzenia.dev/",
     "techStack": ["HTML", "SCSS", "React", "Tailwind", "Vite"]
+  },
+  {
+    "id": 2,
+    "title": "Metallica CNC",
+    "imageUrl": "src/assets/images/projects/projects-metallica.jpg",
+    "description": "This is my first project of the website. I build it for CNC company. Site was ment to be easy and kept in minimalistic manner.",
+    "githubUrl": "https://github.com/rafalgrzenia/Metallica-cnc.pl",
+    "websiteUrl": "https://metallica-cnc.pl",
+    "techStack": ["HTML", "CSS", "JavaScript"]
+  },
+  {
+    "id": 3,
+    "title": "Date Picker",
+    "imageUrl": "src/assets/images/projects/projects-datePicker.jpg",
+    "description": "The date picker app allows you to choose a certain date and display it at the top of the page",
+    "githubUrl": "https://github.com/rafalgrzenia/Date-Picker",
+    "websiteUrl": "https://rafalgrzenia.github.io/Date-Picker",
+    "techStack": ["HTML", "CSS", "JavaScript", "Date-Fns", "Parcel"]
+  },
+  {
+    "id": 4,
+    "title": "Todo List",
+    "imageUrl": "src/assets/images/projects/projects-todo.jpg",
+    "description": "Todo List app built with React that uses local storage to save todo items",
+    "githubUrl": "https://github.com/rafalgrzenia/Date-Picker",
+    "websiteUrl": "https://rafalgrzenia.github.io/Date-Picker",
+    "techStack": ["HTML", "CSS", "React", "Vite"]
   }
 ]
