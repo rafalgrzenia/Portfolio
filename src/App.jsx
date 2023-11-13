@@ -1,6 +1,7 @@
 import Header from "./Components/Header/Header";
 import HrLine from "./Components/HrLine";
 import Contact from "./Components/contact/Contact";
+import Footer from "./Components/footer/Footer";
 import Hero from "./Components/hero/Hero";
 import Projects from "./Components/projects/Projects";
 import Skills from "./Components/skills/Skills";
@@ -18,6 +19,7 @@ export default function App() {
       <HrLine />
       <Contact />
       <HrLine />
+      <Footer />
     </>
   );
 }
