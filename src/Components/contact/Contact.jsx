@@ -14,6 +14,7 @@ export default function Contact() {
         <button className="text-green border border-green py-4 px-10 rounded-full text-lg transition-all duration-300 hover:text-black hover:bg-green hover:font-medium">
           <a href="">Email</a>
         </button>
+        
       </div>
     </section>
   );
