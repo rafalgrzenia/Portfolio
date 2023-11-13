@@ -2,6 +2,7 @@ import Header from "./Components/Header/Header";
 import HrLine from "./Components/HrLine";
 import Hero from "./Components/hero/Hero";
 import Projects from "./Components/projects/Projects";
+import Skills from "./Components/skills/Skills";
 import "./index.scss";
 
 export default function App() {
@@ -11,6 +12,8 @@ export default function App() {
       <Hero />
       <HrLine />
       <Projects />
+      <HrLine />
+      <Skills />
       <HrLine />
     </>
   );
