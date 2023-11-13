@@ -1,5 +1,6 @@
 import Header from "./Components/Header/Header";
 import HrLine from "./Components/HrLine";
+import Contact from "./Components/contact/Contact";
 import Hero from "./Components/hero/Hero";
 import Projects from "./Components/projects/Projects";
 import Skills from "./Components/skills/Skills";
@@ -14,6 +15,8 @@ export default function App() {
       <Projects />
       <HrLine />
       <Skills />
+      <HrLine />
+      <Contact />
       <HrLine />
     </>
   );
