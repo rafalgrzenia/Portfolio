@@ -1,6 +1,7 @@
 import portrait from "../../assets/images/hero/hero-image.png";
 import handEmoji from "../../assets/images/hero/hand-emoji.svg";
 import codingEmoji from "../../assets/images/hero/coding-emoji.svg";
+import { scrollToView } from "../../functions/scrollToView";
 
 export default function Hero() {
   return (
@@ -22,13 +23,17 @@ export default function Hero() {
         </p>
       </div>
       <div className="flex gap-6 ">
-        <button className="font-medium border border-green rounded-full text-green px-4 py-[0.6rem] ">
+        <button
+          onClick={() => scrollToView("contact")}
+          className="font-medium border border-green rounded-full text-green px-4 py-[0.6rem] transition-all duration-300 hover:text-black hover:bg-green hover:font-medium "
+        >
           Contact me
         </button>
-        <button className="font-medium border border-green rounded-full text-green px-8 py-[0.6rem]">
-          CV
-        </button>
-        
+        <a href="">
+          <button className="font-medium border border-green rounded-full text-green px-8 py-[0.6rem] transition-all duration-300 hover:text-black hover:bg-green hover:font-medium">
+            CV
+          </button>
+        </a>
       </div>
     </section>
   );
