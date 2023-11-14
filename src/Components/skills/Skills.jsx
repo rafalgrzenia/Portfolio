@@ -11,7 +11,7 @@ import jiraIcon from "../../assets/images/skills/skills-jira.svg";
 
 export default function Skills() {
   return (
-    <section className="flex flex-col items-center mx-8">
+    <section id="skills" className="flex flex-col items-center mx-8">
       <h2 className="text-[1.75rem] mb-8 font-medium">Skills</h2>
       <div className="grid grid-cols-3 gap-8 items-center justify-items-center">
         <img className="transition-all duration-300 hover:scale-125" src={htmlIcon} alt="html icon" title="HTML" />

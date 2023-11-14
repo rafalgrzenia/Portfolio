@@ -10,7 +10,7 @@ export default function Footer() {
       </div>
 
       <div className="flex gap-10 mt-5">
-        <a href="https://github.com/rafalgrzenia">
+        <a href="https://github.com/rafalgrzenia" target="_blank">
           <button className="transition-all duration-300 hover:scale-[1.2]">
             <img
               src={githublogo}
@@ -19,7 +19,7 @@ export default function Footer() {
             />
           </button>
         </a>
-        <a href="https://www.linkedin.com/in/rafalgrzenia/">
+        <a href="https://www.linkedin.com/in/rafalgrzenia/" target="_blank">
           <button className="transition-all duration-300 hover:scale-[1.2]">
             <img
               src={linkedinlogo}
