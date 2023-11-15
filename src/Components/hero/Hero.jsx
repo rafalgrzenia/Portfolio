@@ -1,4 +1,6 @@
-import portrait from "../../assets/images/hero/hero-image.png";
+import portraitLarge from "../../assets/images/hero/portrait-large.png";
+import portraitMedium from "../../assets/images/hero/portrait-medium.png";
+import portraitSmall from "../../assets/images/hero/portrait-small.png";
 import handEmoji from "../../assets/images/hero/hand-emoji.svg";
 import codingEmoji from "../../assets/images/hero/coding-emoji.svg";
 import { scrollToView } from "../../functions/scrollToView";
@@ -6,7 +8,12 @@ import { scrollToView } from "../../functions/scrollToView";
 export default function Hero() {
   return (
     <section className="mx-6 flex flex-col items-center  gap-6">
-      <img src={portrait} alt="Portrait" className="w-[250px] h-[250px]" />
+      <img
+        src={portraitLarge}
+        alt="Portrait"
+        srcSet={`${portraitLarge} 450w, ${portraitMedium} 340w, ${portraitSmall} 250w`}
+        className="block w-full max-w-[250px]"
+      />
       <div className="flex flex-col gap-2">
         <div className="flex gap-3">
           <h2 className="text-white text-[1.75rem] font-medium">Hi</h2>
