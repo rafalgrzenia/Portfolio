@@ -1,15 +1,19 @@
 import { useEffect, useState } from "react";
 import { copyToClipBoard } from "../../functions/copyToClipBoard";
+import { delay } from "../../functions/delay";
 
 export default function Contact() {
   const [isCopied, setisCopied] = useState(false);
+  const [disabled, setDisabled] = useState(false);
 
-  function handleCopyOnClick(e) {
+  async function handleCopyOnClick(e) {
     copyToClipBoard(e);
     setisCopied(true);
-    setTimeout(() => {
-      setisCopied(false);
-    }, 2000);
+    setDisabled(true);
+    await delay(2000);
+    setisCopied(false);
+    await delay(400);
+    setDisabled(false);
   }
 
   return (
@@ -19,6 +23,7 @@ export default function Contact() {
       </h2>
       <div className="flex flex-col gap-8">
         <button
+          disabled={disabled}
           onClick={(e) => handleCopyOnClick(e)}
           value={"rafalgrzenia"}
           className="text-green border border-green py-4  w-[11rem] rounded-full text-lg transition-all duration-300 hover:text-black hover:bg-green hover:font-medium"
@@ -31,6 +36,7 @@ export default function Contact() {
           </button>
         </a>
         <button
+          disabled={disabled}
           onClick={(e) => handleCopyOnClick(e)}
           value={"rafalgrzenia@gmail.com"}
           className="text-green border border-green py-4 w-[11rem] rounded-full text-lg transition-all duration-300 hover:text-black hover:bg-green hover:font-medium"
