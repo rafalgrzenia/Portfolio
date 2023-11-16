@@ -8,6 +8,7 @@ export default {
   ],
   theme: {
     container: {
+      padding: '2rem',
       center: true
     },
     screens: {
