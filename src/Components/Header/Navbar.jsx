@@ -22,22 +22,25 @@ export default function Navbar() {
   //   } justify-center items-center px-6 py-6 text-center absolute top-20 transition-all duration-700  bg-[rgba(0,0,0,0.8)] `}
   // >
 
+  //   <nav
+  //   className={`flex ${
+  //     isHamburgerOpen ? " right-0" : "right-[-147px]"
+  //   } justify-center items-center px-6 py-6 text-center absolute top-20 transition-all duration-700  bg-[rgba(0,0,0,0.8)] `}
+  // >
+
   return (
     <>
-      {" "}
       <Hamburger
         toggleHamburger={toggleHamburger}
         isHamburgerOpen={isHamburgerOpen}
       />
       <nav
-        className={`flex ${
-          isHamburgerOpen ? " right-0" : "right-[-147px]"
-        } justify-center items-center px-6 py-6 text-center absolute top-20 transition-all duration-700  bg-[rgba(0,0,0,0.8)] `}
+        className={`hidden justify-center items-center px-6 py-6 text-center transition-all duration-700  bg-[rgba(0,0,0,0.8)] `}
       >
-        <ul className={`flex flex-col gap-[3.75rem] `}>
+        <ul className={`flex flex-col sm:flex-row gap-[3.75rem] `}>
           <li
             onClick={() => scrollToView("projects")}
-            className="text-2xl transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer "
+            className="text-2xl  transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer "
           >
             Projects
           </li>
