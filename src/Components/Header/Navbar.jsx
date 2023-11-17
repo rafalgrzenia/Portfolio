@@ -35,41 +35,47 @@ export default function Navbar() {
         isHamburgerOpen={isHamburgerOpen}
       />
       <nav
-        className={`hidden justify-center items-center px-6 py-6 text-center transition-all duration-700  bg-[rgba(0,0,0,0.8)] `}
+        className={`hidden justify-center items-center px-6 py-6 text-center transition-all duration-700  bg-[rgba(0,0,0,0.8)] lg:flex  `}
       >
-        <ul className={`flex flex-col sm:flex-row gap-[3.75rem] `}>
+        <ul
+          className={`flex flex-col sm:flex-row gap-[3.75rem] items-center ml-auto  `}
+        >
           <li
             onClick={() => scrollToView("projects")}
-            className="text-2xl  transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer "
+            className="text-2xl  transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer lg:text-[1.3rem] "
           >
             Projects
           </li>
           <li
             onClick={() => scrollToView("skills")}
-            className="text-2xl transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer"
+            className="text-2xl transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer lg:text-[1.3rem]"
           >
             Skills
           </li>
           <li
             onClick={() => scrollToView("contact")}
-            className="text-2xl transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer"
+            className="text-2xl transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer lg:text-[1.3rem]"
           >
             Contact
           </li>
-          <a href="https://github.com/rafalgrzenia">
-            <img
-              className="w-[3rem] h-auto m-auto transition-all duration-300 hover:scale-[1.2]"
-              src={githublogo}
-              alt="github icon"
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/rafalgrzenia/">
-            <img
-              className="w-[3rem] h-auto mt-[-1.25rem] ml-auto mr-auto transition-all duration-300 hover:scale-[1.2]"
-              src={linkedinlogo}
-              alt="linkedin icon"
-            />
-          </a>
+          <li>
+            <a href="https://github.com/rafalgrzenia">
+              <img
+                className="w-[3rem] h-auto m-auto transition-all duration-300 hover:scale-[1.2]"
+                src={githublogo}
+                alt="github icon"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/rafalgrzenia/">
+              <img
+                className="w-[3rem] h-auto mt-[-1.25rem] ml-auto mr-auto transition-all duration-300 hover:scale-[1.2] lg:mt-0"
+                src={linkedinlogo}
+                alt="linkedin icon"
+              />
+            </a>
+          </li>
         </ul>
       </nav>
     </>
