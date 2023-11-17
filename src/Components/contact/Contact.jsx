@@ -22,7 +22,7 @@ export default function Contact() {
         <h2 className="text-[1.75rem] sm:text-[2rem] font-medium w-[11rem] sm:w-full sm:text-center">
           Contact me!
         </h2>
-        <div className="flex flex-col gap-8 sm:flex-row sm:gap-6">
+        <div className="flex flex-col gap-8 sm:flex-row sm:gap-6 md:gap-12">
           <button
             disabled={disabled}
             onClick={(e) => handleCopyOnClick(e)}
