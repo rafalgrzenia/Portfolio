@@ -11,75 +11,77 @@ import jiraIcon from "../../assets/images/skills/skills-jira.svg";
 
 export default function Skills() {
   return (
-    <section id="skills" >
+    <section id="skills" className="md:pt-4">
       <div className="container flex flex-col items-center">
-        <h2 className="text-[1.75rem] mb-8 sm:mb-12 sm:text-[2rem] font-medium">Skills</h2>
-        <div className="grid grid-cols-3 gap-8 sm:gap-10 items-center justify-items-center sm:grid-cols-5">
+        <h2 className="text-[1.75rem] mb-8 sm:mb-12 lg:mb-16 sm:text-[2rem] lg:text-[2.5rem] font-medium">
+          Skills
+        </h2>
+        <div className="grid grid-cols-3 gap-8 sm:gap-10 md:gap-14 items-center justify-items-center sm:grid-cols-5">
           <img
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 md:h-[70px] md:w-[70px] "
             src={htmlIcon}
             alt="html icon"
             title="HTML"
           />
 
           <img
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 md:h-[70px] md:w-[70px]"
             src={cssIcon}
             alt="css icon"
             title="CSS"
           />
 
           <img
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 md:h-[70px] md:w-[70px]"
             src={jsIcon}
             alt="javascript icon"
             title="JavaScript"
           />
 
           <img
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 md:h-[70px] md:w-[70px]"
             src={reactIcon}
             alt="react icon"
             title="React"
           />
 
           <img
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 md:h-[70px] md:w-[70px]"
             src={figmaIcon}
             alt="figma icon"
             title="Figma"
           />
 
           <img
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 md:h-[70px] md:w-[70px]"
             src={viteIcon}
             alt="vite icon"
             title="Vite"
           />
 
           <img
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 md:h-[70px] md:w-[70px]"
             src={sassIcon}
             alt="sass icon"
             title="Sass"
           />
 
           <img
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 md:h-[70px] md:w-[70px]"
             src={tailwindIcon}
             alt="tailwind icon"
             title="Tailwind"
           />
 
           <img
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 md:h-[70px] md:w-[70px] "
             src={gitIcon}
             alt="git icon"
             title="GIT"
           />
 
           <img
-            className="transition-all duration-300 hover:scale-125"
+            className="transition-all duration-300 hover:scale-125 md:h-[70px] md:w-[70px]"
             src={jiraIcon}
             alt="jira icon"
             title="Jira"
