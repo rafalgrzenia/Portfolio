@@ -35,26 +35,26 @@ export default function Navbar() {
         isHamburgerOpen={isHamburgerOpen}
       />
       <nav
-        className={`hidden justify-center items-center px-6 py-6 text-center transition-all duration-700  bg-[rgba(0,0,0,0.8)] lg:flex  `}
+        className={`hidden justify-center items-center px-6 py-6 text-center transition-all duration-700  bg-[rgba(0,0,0,0.8)] lg:flex lg:py-0 lg:px-0 lg:pr-4 `}
       >
         <ul
           className={`flex flex-col sm:flex-row gap-[3.75rem] items-center ml-auto  `}
         >
           <li
             onClick={() => scrollToView("projects")}
-            className="text-2xl  transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer lg:text-[1.3rem] "
+            className="text-2xl  transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer  "
           >
             Projects
           </li>
           <li
             onClick={() => scrollToView("skills")}
-            className="text-2xl transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer lg:text-[1.3rem]"
+            className="text-2xl transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer "
           >
             Skills
           </li>
           <li
             onClick={() => scrollToView("contact")}
-            className="text-2xl transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer lg:text-[1.3rem]"
+            className="text-2xl transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer "
           >
             Contact
           </li>
