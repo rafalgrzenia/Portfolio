@@ -13,8 +13,8 @@ export default function Skills() {
   return (
     <section id="skills" >
       <div className="container flex flex-col items-center">
-        <h2 className="text-[1.75rem] mb-8 font-medium">Skills</h2>
-        <div className="grid grid-cols-3 gap-8 items-center justify-items-center">
+        <h2 className="text-[1.75rem] mb-8 sm:mb-12 sm:text-[2rem] font-medium">Skills</h2>
+        <div className="grid grid-cols-3 gap-8 sm:gap-10 items-center justify-items-center sm:grid-cols-5">
           <img
             className="transition-all duration-300 hover:scale-125"
             src={htmlIcon}
