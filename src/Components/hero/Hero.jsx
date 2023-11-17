@@ -15,7 +15,7 @@ export default function Hero() {
           srcSet={`${portraitLarge} 450w, ${portraitMedium} 340w, ${portraitSmall} 250w`}
           className="block w-full max-w-[250px] sm:hidden"
         />
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 ml-4">
           <div>
             <div className="flex gap-3">
               <h2 className="text-white text-[1.75rem] font-medium">Hi</h2>
@@ -30,7 +30,7 @@ export default function Hero() {
             <h2 className="text-green text-xl font-medium sm:mt-2">
               Front-End Developer
             </h2>{" "}
-            <p className="w-[90%] sm:w-full mt-4">
+            <p className="w-[90%]  mt-4">
               I design and develop responsive, optimized and efficient websites.
               Currently available for work opportunities.
             </p>
@@ -55,7 +55,7 @@ export default function Hero() {
           src={portraitLarge}
           alt="Portrait"
           srcSet={`${portraitLarge} 450w, ${portraitMedium} 340w, ${portraitSmall} 250w`}
-          className="hidden w-full max-w-[250px]  sm:block"
+          className="hidden w-full max-w-[250px] md:max-w-[340px]   sm:block"
         />
       </div>
     </section>
