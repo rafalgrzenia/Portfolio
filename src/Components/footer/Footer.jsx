@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer className="mb-20">
       <div className="container flex flex-col items-center gap-5">
-        <div className="w-[14rem]">
-          <h2 className="text-lg mb-2">Made by Rafal Grzenia ©</h2>
+        <div className="w-[14rem] sm:w-full sm:text-center">
+          <h2 className="text-lg mb-2 sm:mb-4">Made by Rafal Grzenia ©</h2>
           <h2 className="text-lg">Powered by React & Tailwind CSS</h2>
         </div>
 
