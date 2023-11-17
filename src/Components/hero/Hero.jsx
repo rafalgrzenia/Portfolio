@@ -7,8 +7,8 @@ import { scrollToView } from "../../functions/scrollToView";
 
 export default function Hero() {
   return (
-    <section>
-      <div className="container flex flex-col items-center gap-10 sm:flex-row sm:gap-0 lg:justify-evenly">
+    <section className="lg:pt-[3rem]">
+      <div className="container flex flex-col items-center gap-10 sm:flex-row sm:gap-0 lg:justify-evenly lg:pr-0">
         <img
           src={portraitLarge}
           alt="Portrait"
