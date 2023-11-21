@@ -5,11 +5,13 @@ export default function Projects() {
   return (
     <section id="projects">
       <div className="container flex flex-col items-center gap-[5rem] sm:gap-[7rem]">
-        <h2 className="text-[1.75rem]">Projects</h2>
+        <h2 className="text-[2rem] md:text-[2.5rem]">Projects</h2>
 
-        {projects.map((project) => (
-          <Project key={project.id} {...project} />
-        ))}
+        <div className="grid grid-cols-1  lg:grid-cols-2 gap-12">
+          {projects.map((project) => (
+            <Project key={project.id} {...project} />
+          ))}
+        </div>
 
         <a
           href="https://github.com/rafalgrzenia?tab=repositories"

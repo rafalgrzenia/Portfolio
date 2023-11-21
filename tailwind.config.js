@@ -20,6 +20,7 @@ export default {
     },
     extend: {
       colors: {
+        background: "#060606",
         green: "#13C239",
         white: "#F5F5F5",
         techstackButton: "#1F1F1F",

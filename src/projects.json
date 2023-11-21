@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Portfolio",
     "imageUrl": "src/assets/images/projects/projects-portfolio.jpg",
-    "description": "This project is my portfolio which I designed using Figma",
+    "description": "This is my latest project. Portfolio build using React and TailwindCSS. The site was fully designed in Figma and built by myself.",
     "githubUrl": "https://github.com/rafalgrzenia/Metallica-cnc.pl",
     "websiteUrl": "https://rafalgrzenia.dev/",
     "techStack": ["HTML", "SCSS", "React", "Tailwind", "Vite"]
@@ -21,7 +21,7 @@
     "id": 3,
     "title": "Date Picker",
     "imageUrl": "src/assets/images/projects/projects-datePicker.jpg",
-    "description": "The date picker app allows you to choose a certain date and display it at the top of the page",
+    "description": "The date picker app allows you to choose a certain date and display",
     "githubUrl": "https://github.com/rafalgrzenia/Date-Picker",
     "websiteUrl": "https://rafalgrzenia.github.io/Date-Picker",
     "techStack": ["HTML", "CSS", "JavaScript", "Date-Fns", "Parcel"]

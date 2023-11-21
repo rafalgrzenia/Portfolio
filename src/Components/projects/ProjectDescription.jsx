@@ -4,7 +4,7 @@ export default function ProjectDescription({ title, description, imageUrl }) {
       <img
         src={imageUrl}
         alt={title}
-        className="mb-8 max-w-[450px]   w-full mx-auto"
+        className="mb-8 max-w-[450px] w-full mx-auto rounded-lg"
       />
 
       <div className="mb-8 sm:mb-10  sm:ml-16 md:ml-0">
@@ -12,7 +12,7 @@ export default function ProjectDescription({ title, description, imageUrl }) {
           {title}
         </h3>
 
-        <p className="text-base max-w-[90%] sm:text-lg sm:max-w-[70%] md:max-w-[23rem]">
+        <p className="text-base max-w-[90%] sm:text-lg sm:max-w-[70%] md:max-w-[23rem] ">
           {description}
         </p>
       </div>

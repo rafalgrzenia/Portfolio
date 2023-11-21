@@ -19,7 +19,7 @@ export default function Project({
         imageUrl={imageUrl}
       />
       <SocialButtons githubUrl={githubUrl} websiteUrl={websiteUrl} />
-      <div className="flex gap-[0.6rem] sm:gap-3 flex-wrap mt-8  sm:mt-12 sm:ml-16 md:ml-0">
+      <div className="flex gap-[0.6rem] sm:gap-3 flex-wrap mt-10  sm:mt-12 sm:ml-16 md:ml-0">
         {techStack.map((skill) => (
           <TechStackButton key={skill} skill={skill} />
         ))}

@@ -2,7 +2,7 @@ import portraitLarge from "../../assets/images/hero/portrait-large.png";
 import portraitMedium from "../../assets/images/hero/portrait-medium.png";
 import portraitSmall from "../../assets/images/hero/portrait-small.png";
 import handEmoji from "../../assets/images/hero/hand-emoji.svg";
-import codingEmoji from "../../assets/images/hero/coding-emoji.svg";
+import codingEmoji from "../../assets/images/hero/coding-emoji.png";
 import { scrollToView } from "../../functions/scrollToView";
 
 export default function Hero() {
@@ -17,20 +17,30 @@ export default function Hero() {
         />
         <div className="flex flex-col gap-2 ml-4 md:ml-0">
           <div>
-            <div className="flex gap-3">
-              <h2 className="text-white text-[1.75rem] font-medium lg:text-[2.5rem]">Hi</h2>
-              <img src={handEmoji} alt="hand-emoji" className="lg:w-[35px]" />
+            <div className="flex gap-3 items-center">
+              <h2 className="text-white text-[1.75rem] font-medium lg:text-[2.5rem]">
+                Hi
+              </h2>
+              <img
+                src={handEmoji}
+                alt="hand-emoji"
+                className="h-[32px] lg:h-[40px] "
+              />
             </div>
-            <div className="flex gap-3">
+            <div className="flex gap-3 items-center">
               <h2 className="text-white text-[1.75rem] font-medium lg:text-[2.5rem]">
                 I'm Rafal
               </h2>
-              <img src={codingEmoji} alt="coding emoji" className="lg:w-[35px]"  />
+              <img
+                src={codingEmoji}
+                alt="coding emoji"
+                className=" h-[32px] lg:h-[40px] "
+              />
             </div>
             <h2 className="text-green text-xl font-medium sm:mt-2 lg:text-[2rem]">
               Front-End Developer
             </h2>{" "}
-            <p className="w-[90%] lg:w-[20rem]  mt-4 lg:text-lg">
+            <p className="w-[90%] lg:w-[25rem]  mt-4 lg:text-lg">
               I design and develop responsive, optimized and efficient websites.
               Currently available for work opportunities.
             </p>
