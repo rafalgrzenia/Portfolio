@@ -1,8 +1,8 @@
-import portraitLarge from "../../assets/images/hero/portrait-large.png";
-import portraitMedium from "../../assets/images/hero/portrait-medium.png";
-import portraitSmall from "../../assets/images/hero/portrait-small.png";
-import handEmoji from "../../assets/images/hero/hand-emoji.svg";
-import codingEmoji from "../../assets/images/hero/coding-emoji.png";
+import portraitLarge from "/images/hero/portrait-large.png";
+import portraitMedium from "/images/hero/portrait-medium.png";
+import portraitSmall from "/images/hero/portrait-small.png";
+import handEmoji from "/images/hero/hand-emoji.svg";
+import codingEmoji from "/images/hero/coding-emoji.png";
 import { scrollToView } from "../../functions/scrollToView";
 
 export default function Hero() {

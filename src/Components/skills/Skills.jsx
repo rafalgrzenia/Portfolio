@@ -1,13 +1,13 @@
-import htmlIcon from "../../assets/images/skills/skills-html.svg";
-import cssIcon from "../../assets/images/skills/skills-css.svg";
-import jsIcon from "../../assets/images/skills/skills-js.svg";
-import reactIcon from "../../assets/images/skills/skills-react.svg";
-import figmaIcon from "../../assets/images/skills/skills-figma.svg";
-import tailwindIcon from "../../assets/images/skills/skills-tailwind.svg";
-import sassIcon from "../../assets/images/skills/skills-sass.svg";
-import viteIcon from "../../assets/images/skills/skills-vite.svg";
-import gitIcon from "../../assets/images/skills/skills-git.svg";
-import jiraIcon from "../../assets/images/skills/skills-jira.svg";
+import htmlIcon from "/images/skills/skills-html.svg";
+import cssIcon from "/images/skills/skills-css.svg";
+import jsIcon from "/images/skills/skills-js.svg";
+import reactIcon from "/images/skills/skills-react.svg";
+import figmaIcon from "/images/skills/skills-figma.svg";
+import tailwindIcon from "/images/skills/skills-tailwind.svg";
+import sassIcon from "/images/skills/skills-sass.svg";
+import viteIcon from "/images/skills/skills-vite.svg";
+import gitIcon from "/images/skills/skills-git.svg";
+import jiraIcon from "/images/skills/skills-jira.svg";
 
 export default function Skills() {
   return (

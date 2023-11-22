@@ -1,5 +1,5 @@
-import githublogo from "../../assets/images/header/github-icon.svg";
-import linkedinlogo from "../../assets/images/header/linkedin-icon.svg";
+import githublogo from "/images/header/github-icon.svg";
+import linkedinlogo from "/images/header/linkedin-icon.svg";
 import { scrollToView } from "../../functions/scrollToView";
 
 export default function NavDesktop() {

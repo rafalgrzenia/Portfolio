@@ -1,6 +1,6 @@
 import { useState } from "react";
-import githublogo from "../../assets/images/header/github-icon.svg";
-import linkedinlogo from "../../assets/images/header/linkedin-icon.svg";
+import githublogo from "/images/header/github-icon.svg";
+import linkedinlogo from "/images/header/linkedin-icon.svg";
 import Hamburger from "./Hamburger";
 import { scrollToView } from "../../functions/scrollToView";
 
@@ -10,26 +10,6 @@ export default function NavMobile() {
   function toggleHamburger() {
     setIsHamburgerOpen((prev) => !prev);
   }
-
-  //   <nav
-  //   className={`flex ${
-  //     isHamburgerOpen ? "right-0" : "right-[-147px]"
-  //   } justify-center items-center px-6 py-6 text-center absolute top-20 transition-all duration-700  bg-[rgba(0,0,0,0.8)] `}
-  // >
-
-  //   <nav
-  //   className={`flex ${
-  //     isHamburgerOpen ? " right-0" : "right-[-147px]"
-  //   } justify-center items-center px-6 py-6 text-center absolute top-20 transition-all duration-700  bg-[rgba(0,0,0,0.8)] `}
-  // >
-
-  //   <nav
-  //   className={`${
-  //     isHamburgerOpen
-  //       ? "flex translate-x-0 visible opacity-100"
-  //       : "invisible opacity-0 translate-x-full "
-  //   } bg-black/90 h-full flex-col  gap-12 items-center  absolute top-0 right-0 px-14 py-14 md:px-20 md:py-20 text-center transition-all duration-700  lg:flex lg:visible lg:opacity-100 lg:translate-x-0 lg:transition-none lg:bg-background  lg:py-0 lg:px-0 lg:pr-4 lg:static  `}
-  // >
 
   return (
     <>
