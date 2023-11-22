@@ -55,7 +55,7 @@ export default function Hero() {
               Contact
             </button>
             <a href="">
-              <button className="font-medium border text-lg border-green rounded-full text-green px-7 xs:px-12 py-[0.6rem]  transition-all duration-300 hover:text-black hover:bg-green hover:font-medium">
+              <button className="font-medium border text-lg border-green rounded-full text-green px-9 xs:px-12 py-[0.6rem]  transition-all duration-300 hover:text-black hover:bg-green hover:font-medium">
                 CV
               </button>
             </a>
@@ -66,7 +66,7 @@ export default function Hero() {
           src={portraitLarge}
           alt="Portrait"
           srcSet={`${portraitLarge} 450w, ${portraitMedium} 340w, ${portraitSmall} 250w`}
-          className="hidden w-full max-w-[250px] sm:max-w-[300px] lg:max-w-[350px]   sm:block"
+          className="hidden w-full max-w-[250px] md:max-w-[280px] lg:max-w-[350px] sm:block"
         />
       </div>
     </section>
