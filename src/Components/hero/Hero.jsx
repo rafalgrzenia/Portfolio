@@ -1,6 +1,6 @@
-import portraitLarge from "/images/hero/portrait-large.png";
-import portraitMedium from "/images/hero/portrait-medium.png";
-import portraitSmall from "/images/hero/portrait-small.png";
+import portraitLarge from "/images/hero/portrait-large.webp";
+import portraitMedium from "/images/hero/portrait-medium.webp";
+import portraitSmall from "/images/hero/portrait-small.webp";
 import handEmoji from "/images/hero/hand-emoji.svg";
 import codingEmoji from "/images/hero/coding-emoji.png";
 import { scrollToView } from "../../functions/scrollToView";
@@ -13,7 +13,7 @@ export default function Hero() {
           src={portraitLarge}
           alt="Portrait"
           srcSet={`${portraitLarge} 450w, ${portraitMedium} 340w, ${portraitSmall} 250w`}
-          className="block w-full max-w-[250px] sm:hidden"
+          className="block w-full max-w-[250px] sm:hidden aspect-square"
         />
         <div className="hero-text-content  flex flex-col gap-2 ml-4 md:ml-0 ">
           <div>
@@ -66,7 +66,7 @@ export default function Hero() {
           src={portraitLarge}
           alt="Portrait"
           srcSet={`${portraitLarge} 450w, ${portraitMedium} 340w, ${portraitSmall} 250w`}
-          className="hidden w-full max-w-[250px] md:max-w-[280px] lg:max-w-[350px] sm:block"
+          className="hidden w-full max-w-[250px] md:max-w-[280px] lg:max-w-[350px] sm:block aspect-square"
         />
       </div>
     </section>
