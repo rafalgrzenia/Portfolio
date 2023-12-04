@@ -10,6 +10,7 @@ export default function Project({
   githubUrl,
   websiteUrl,
   techStack,
+  priority
 }) {
   return (
     <div>
@@ -17,6 +18,7 @@ export default function Project({
         title={title}
         description={description}
         imageUrl={imageUrl}
+        priority={priority}
       />
       <SocialButtons githubUrl={githubUrl} websiteUrl={websiteUrl} />
       <div className="flex gap-[0.6rem] sm:gap-3 flex-wrap mt-10  sm:mt-12 sm:ml-16 md:ml-0">

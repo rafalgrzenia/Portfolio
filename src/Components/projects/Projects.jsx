@@ -7,7 +7,7 @@ export default function Projects() {
       <div className="container flex flex-col items-center gap-[5rem] sm:gap-[7rem]">
         <h2 className="text-[2rem] md:text-[2.5rem]">Projects</h2>
 
-        <div className="grid grid-cols-1  lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1  lg:grid-cols-2 gap-12 xl:gap-20">
           {projects.map((project) => (
             <Project key={project.id} {...project} />
           ))}

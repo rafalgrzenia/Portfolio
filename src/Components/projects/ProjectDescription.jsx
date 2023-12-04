@@ -1,10 +1,18 @@
-export default function ProjectDescription({ title, description, imageUrl }) {
+export default function ProjectDescription({
+  title,
+  description,
+  imageUrl,
+  priority,
+}) {
   return (
     <div>
       <img
+        width={550}
+        height={360}
+        fetchpriority={priority}
         src={imageUrl}
         alt={title}
-        className="mb-8 max-w-[450px] w-full mx-auto rounded-lg"
+        className="mb-8 max-w-[450px] w-full mx-auto rounded-lg aspect-auto"
       />
 
       <div className="mb-8 sm:mb-10  sm:ml-16 md:ml-0">
