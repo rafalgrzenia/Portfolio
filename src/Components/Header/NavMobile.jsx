@@ -49,7 +49,7 @@ export default function NavMobile() {
           <li>
             <a href="https://github.com/rafalgrzenia">
               <img
-                className="w-[3rem] h-auto m-auto transition-all duration-300 hover:scale-[1.2]"
+                className="w-[3.5rem] h-[3.5rem] m-auto transition-all duration-300 hover:scale-[1.2]"
                 src={githublogo}
                 alt="github icon"
               />
@@ -58,7 +58,7 @@ export default function NavMobile() {
           <li>
             <a href="https://www.linkedin.com/in/rafalgrzenia/">
               <img
-                className="w-[3rem] h-auto mt-[-1.25rem] ml-auto mr-auto transition-all duration-300 hover:scale-[1.2]"
+                className="w-[3.5rem] h-[3.5rem] mt-[-1.25rem] ml-auto mr-auto transition-all duration-300 hover:scale-[1.2]"
                 src={linkedinlogo}
                 alt="linkedin icon"
               />

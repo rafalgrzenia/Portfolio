@@ -1,8 +1,8 @@
 import portraitLarge from "/images/hero/portrait-large.webp";
 import portraitMedium from "/images/hero/portrait-medium.webp";
 import portraitSmall from "/images/hero/portrait-small.webp";
-import handEmoji from "/images/hero/hand-emoji.svg";
-import codingEmoji from "/images/hero/coding-emoji.png";
+import handEmoji from "/images/hero/hand-emoji.webp";
+import codingEmoji from "/images/hero/coding-emoji.webp";
 import { scrollToView } from "../../functions/scrollToView";
 
 export default function Hero() {
@@ -17,14 +17,14 @@ export default function Hero() {
         />
         <div className="hero-text-content  flex flex-col gap-2 ml-4 md:ml-0 ">
           <div>
-            <div className="flex gap-3 items-center">
+            <div className="flex gap-3 items-center ">
               <h2 className="text-white text-[1.75rem] font-medium lg:text-[2.5rem]">
                 Hi
               </h2>
               <img
                 src={handEmoji}
                 alt="hand-emoji"
-                className="h-[32px] lg:h-[40px] "
+                className="h-[30px] w-[30px] lg:h-[40px] lg:w-[40px] aspect-square"
               />
             </div>
             <div className="flex gap-3 items-center">
@@ -34,7 +34,7 @@ export default function Hero() {
               <img
                 src={codingEmoji}
                 alt="coding emoji"
-                className=" h-[32px] lg:h-[40px] "
+                className=" h-[32px] w-[32px] lg:h-[40px] lg:w-[40px] "
               />
             </div>
             <h2 className="text-green text-xl font-medium sm:mt-2 lg:text-[2rem]">

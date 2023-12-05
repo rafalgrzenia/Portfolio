@@ -27,7 +27,7 @@ export default function NavDesktop() {
         <li>
           <a href="https://github.com/rafalgrzenia">
             <img
-              className="w-[3rem] transition-all duration-300 hover:scale-[1.2]"
+              className="w-12 h-12 transition-all duration-300 hover:scale-[1.2]"
               src={githublogo}
               alt="github icon"
             />
@@ -36,7 +36,7 @@ export default function NavDesktop() {
         <li>
           <a href="https://www.linkedin.com/in/rafalgrzenia/">
             <img
-              className="w-[3rem] transition-all duration-300 hover:scale-[1.2]"
+              className="w-12 h-12 transition-all duration-300 hover:scale-[1.2]"
               src={linkedinlogo}
               alt="linkedin icon"
             />
