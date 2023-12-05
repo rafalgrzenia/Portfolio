@@ -4,6 +4,7 @@ import portraitSmall from "/images/hero/portrait-small.webp";
 import handEmoji from "/images/hero/hand-emoji.webp";
 import codingEmoji from "/images/hero/coding-emoji.webp";
 import { scrollToView } from "../../functions/scrollToView";
+import cv from "../../assets/Rafal_Grzenia_CV.pdf";
 
 export default function Hero() {
   return (
@@ -54,7 +55,7 @@ export default function Hero() {
             >
               Contact
             </button>
-            <a href="">
+            <a href={cv} target="_blank">
               <button className="font-medium border text-lg border-green rounded-full text-green px-9 xs:px-12 py-[0.6rem]  transition-all duration-300 hover:text-black hover:bg-green hover:font-medium">
                 CV
               </button>
