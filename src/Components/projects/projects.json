@@ -4,28 +4,28 @@
     "title": "Portfolio",
     "imageUrl": "/images/projects/projects-portfolio.webp",
     "description": "This is my latest project. Portfolio build using React and TailwindCSS. The site was fully designed in Figma and built by myself.",
-    "githubUrl": "https://github.com/rafalgrzenia/Metallica-cnc.pl",
+    "githubUrl": "https://github.com/rafalgrzenia/Portfolio",
     "websiteUrl": "https://rafalgrzenia.dev/",
-    "techStack": ["HTML", "SCSS", "React", "Tailwind", "Vite"],
+    "techStack": ["HTML", "SCSS", "JavaScript", "React", "Tailwind", "Vite"],
     "priority": "high"
   },
   {
     "id": 2,
+    "title": "Random Timer",
+    "imageUrl": "/images/projects/projects-randomTimer.webp",
+    "description": "Timer was made based on the study on humans, which shows that random interval breaks for 10 seconds, increase learning efficiency.",
+    "githubUrl": "https://github.com/rafalgrzenia/Random-Timer",
+    "websiteUrl": "https://rafalgrzenia.github.io/Random-Timer",
+    "techStack": ["HTML", "SCSS", "JavaScript", "React", "Vite"]
+  },
+  {
+    "id": 3,
     "title": "Metallica CNC",
     "imageUrl": "/images/projects/projects-metallica.webp",
     "description": "This is my first project of the website. I build it for CNC company. Site was ment to be easy and kept in minimalistic manner.",
     "githubUrl": "https://github.com/rafalgrzenia/Metallica-cnc.pl",
     "websiteUrl": "https://metallica-cnc.pl",
     "techStack": ["HTML", "CSS", "JavaScript"]
-  },
-  {
-    "id": 3,
-    "title": "Date Picker",
-    "imageUrl": "/images/projects/projects-datePicker.webp",
-    "description": "The date picker app allows you to choose a certain date and display",
-    "githubUrl": "https://github.com/rafalgrzenia/Date-Picker",
-    "websiteUrl": "https://rafalgrzenia.github.io/Date-Picker",
-    "techStack": ["HTML", "CSS", "JavaScript", "Date-Fns", "Parcel"]
   },
   {
     "id": 4,
