@@ -25,7 +25,7 @@ export default function NavDesktop() {
           Contact
         </li>
         <li>
-          <a href="https://github.com/rafalgrzenia">
+          <a href="https://github.com/rafalgrzenia" target="_blank">
             <img
               className="w-12 h-12 transition-all duration-300 hover:scale-[1.2]"
               src={githublogo}
@@ -34,7 +34,7 @@ export default function NavDesktop() {
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/rafalgrzenia/">
+          <a href="https://www.linkedin.com/in/rafalgrzenia/" target="_blank">
             <img
               className="w-12 h-12 transition-all duration-300 hover:scale-[1.2]"
               src={linkedinlogo}

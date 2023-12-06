@@ -47,7 +47,7 @@ export default function NavMobile() {
             Contact
           </li>
           <li>
-            <a href="https://github.com/rafalgrzenia">
+            <a href="https://github.com/rafalgrzenia" target="_blank">
               <img
                 className="w-[3.5rem] h-[3.5rem] m-auto transition-all duration-300 hover:scale-[1.2]"
                 src={githublogo}
@@ -56,7 +56,7 @@ export default function NavMobile() {
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/rafalgrzenia/">
+            <a href="https://www.linkedin.com/in/rafalgrzenia/" target="_blank">
               <img
                 className="w-[3.5rem] h-[3.5rem] mt-[-1.25rem] ml-auto mr-auto transition-all duration-300 hover:scale-[1.2]"
                 src={linkedinlogo}
