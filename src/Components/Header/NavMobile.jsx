@@ -23,25 +23,34 @@ export default function NavMobile() {
           isHamburgerOpen
             ? "visible opacity-100 translate-x-0 "
             : " invisible opacity-0 translate-x-full "
-        } bg-black/90 h-full flex-col  gap-12 items-center  absolute top-0 right-0 px-14 py-14 md:px-20 md:py-20 text-center transition-all duration-700 lg:hidden`}
+        } bg-black h-screen flex-col gap-12 items-center  absolute top-0 right-0 w-[12rem] md:w-[20rem] py-4  md:py-20 text-center transition-all duration-700 lg:hidden`}
       >
         <ul
           className={`flex flex-col  gap-[3.75rem] items-center ml-auto mt-20 `}
         >
           <li
-            onClick={() => scrollToView("projects")}
+            onClick={() => {
+              toggleHamburger();
+              scrollToView("projects");
+            }}
             className="text-2xl  transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer  "
           >
             Projects
           </li>
           <li
-            onClick={() => scrollToView("skills")}
+            onClick={() => {
+              toggleHamburger();
+              scrollToView("skills");
+            }}
             className="text-2xl transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer "
           >
             Skills
           </li>
           <li
-            onClick={() => scrollToView("contact")}
+            onClick={() => {
+              toggleHamburger();
+              scrollToView("contact");
+            }}
             className="text-2xl transition-all duration-300 hover:scale-[1.1] hover:text-green cursor-pointer "
           >
             Contact
