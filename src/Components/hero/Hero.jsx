@@ -51,7 +51,7 @@ export default function Hero() {
           <div className="flex gap-6 mt-4">
             <button
               onClick={() => scrollToView("contact")}
-              className="font-medium border text-lg border-green rounded-full text-green px-4 xs:px-9 py-[0.6rem] transition-all duration-300 hover:text-black hover:bg-green hover:font-medium "
+              className="font-medium border text-lg border-green rounded-full text-green px-6 xs:px-9 py-[0.6rem] transition-all duration-300 hover:text-black hover:bg-green hover:font-medium "
             >
               Contact
             </button>
