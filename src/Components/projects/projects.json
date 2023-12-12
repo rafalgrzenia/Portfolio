@@ -32,8 +32,8 @@
     "title": "Todo List",
     "imageUrl": "/images/projects/projects-todo.webp",
     "description": "Todo List app built with React that uses local storage to store user input and reload todo list after refresh",
-    "githubUrl": "https://github.com/rafalgrzenia/Date-Picker",
-    "websiteUrl": "https://rafalgrzenia.github.io/Date-Picker",
+    "githubUrl": "https://github.com/rafalgrzenia/Advanced-Todo-List-React",
+    "websiteUrl": "https://rafalgrzenia.github.io/Advanced-Todo-List-React",
     "techStack": ["HTML", "CSS", "React", "Vite"]
   }
 ]
