@@ -19,9 +19,7 @@ export default function NavMobile() {
   return (
     <>
       <nav
-        className={`${
-          isHamburgerOpen ? "bg-black/90" : "bg-transparent"
-        } flex flex-col  items-end  absolute top-0 right-0    pt-6 transition-all duration-700 lg:hidden`}
+        className={`flex flex-col  items-end  absolute top-0 right-0 pt-6 transition-all duration-700 lg:hidden`}
       >
         <Hamburger
           toggleHamburger={toggleHamburger}
