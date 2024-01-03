@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import chevronArrow from "/images/assets/chevron-up-arrow.svg";
-import { scrollToTop } from "./functions/scrollToTop";
+import { scrollToTop } from "../../functions/scrollToTop";
 
 export function ScrollToTopButton() {
   const [showButton, setShowButton] = useState(false);
