@@ -1,9 +1,7 @@
-
-
 export default function Hamburger({ toggleHamburger, isHamburgerOpen }) {
   return (
     <div
-      className="w-8 h-8 flex justify-around flex-col   flex-nowrap z-10  lg:hidden"
+      className="w-8 h-8 flex justify-around flex-col   flex-nowrap z-10  lg:hidden  mr-4"
       onClick={toggleHamburger}
     >
       <div
@@ -14,8 +12,8 @@ export default function Hamburger({ toggleHamburger, isHamburgerOpen }) {
       <div
         className={`${
           isHamburgerOpen
-            ? "translate-x-full opacity-0"
-            : "translate-x-0 opacity-100"
+            ? "invisible translate-x-full opacity-0"
+            : "visible translate-x-0 opacity-100"
         }  w-8 h-1 rounded-lg bg-slate-50 origin-[1px] `}
       ></div>
       <div

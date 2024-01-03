@@ -1,4 +1,4 @@
-import Header from "./Components/Header/Header";
+import Header from "./Components/header/Header";
 import HrLine from "./Components/HrLine";
 import Contact from "./Components/contact/Contact";
 import Footer from "./Components/footer/Footer";

@@ -7,26 +7,38 @@ import { scrollToView } from "../../functions/scrollToView";
 export default function NavMobile() {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
 
+  document.addEventListener("click", (e) => {
+    if (e.target.closest("nav")) return;
+    setIsHamburgerOpen(false);
+  })
+
   function toggleHamburger() {
     setIsHamburgerOpen((prev) => !prev);
   }
 
+  // invisible opacity-0 translate-x-full
+
   return (
     <>
-      <Hamburger
+      {/* <Hamburger
         toggleHamburger={toggleHamburger}
         isHamburgerOpen={isHamburgerOpen}
-      />
+      /> */}
 
       <nav
-        className={`${
-          isHamburgerOpen
-            ? "visible opacity-100 translate-x-0 "
-            : " invisible opacity-0 translate-x-full "
-        } bg-black h-screen flex-col gap-12 items-center  absolute top-0 right-0 w-[12rem] md:w-[20rem] py-4  md:py-20 text-center transition-all duration-700 lg:hidden`}
+        className={`${isHamburgerOpen ? "bg-black/90" : "bg-transparent"} flex flex-col  items-end  absolute top-0 right-0    pt-6 transition-all duration-700 lg:hidden`}
       >
+        <Hamburger
+          toggleHamburger={toggleHamburger}
+          isHamburgerOpen={isHamburgerOpen}
+        />
+
         <ul
-          className={`flex flex-col  gap-[3.75rem] items-center ml-auto mt-20 `}
+          className={`${
+            isHamburgerOpen
+              ? "visible opacity-100 translate-x-0 "
+              : "invisible opacity-0 translate-x-full"
+          } nav-ul flex flex-col  gap-[3.75rem] items-center ml-auto px-14 pt-28 absolute bg-black/90 h-screen top-0 transition-all duration-700`}
         >
           <li
             onClick={() => {
