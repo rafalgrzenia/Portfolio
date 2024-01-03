@@ -10,23 +10,18 @@ export default function NavMobile() {
   document.addEventListener("click", (e) => {
     if (e.target.closest("nav")) return;
     setIsHamburgerOpen(false);
-  })
+  });
 
   function toggleHamburger() {
     setIsHamburgerOpen((prev) => !prev);
   }
 
-  // invisible opacity-0 translate-x-full
-
   return (
     <>
-      {/* <Hamburger
-        toggleHamburger={toggleHamburger}
-        isHamburgerOpen={isHamburgerOpen}
-      /> */}
-
       <nav
-        className={`${isHamburgerOpen ? "bg-black/90" : "bg-transparent"} flex flex-col  items-end  absolute top-0 right-0    pt-6 transition-all duration-700 lg:hidden`}
+        className={`${
+          isHamburgerOpen ? "bg-black/90" : "bg-transparent"
+        } flex flex-col  items-end  absolute top-0 right-0    pt-6 transition-all duration-700 lg:hidden`}
       >
         <Hamburger
           toggleHamburger={toggleHamburger}
