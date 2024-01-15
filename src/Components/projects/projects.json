@@ -11,6 +11,15 @@
   },
   {
     "id": 2,
+    "title": "Basic Blog",
+    "imageUrl": "/images/projects/projects-basicblog.webp",
+    "description": "It is a project of the blog that was built with React Router. It communicates with API to fetch data using the Axios library.",
+    "githubUrl": "https://github.com/rafalgrzenia/Basic-Blog",
+    "websiteUrl": "https://rafalgrzenia.github.io/Basic-Blog/",
+    "techStack": ["HTML", "CSS", "JavaScript", "React","Vite", "Axios", "React Router"]
+  },
+  {
+    "id": 3,
     "title": "Random Timer",
     "imageUrl": "/images/projects/projects-randomTimer.webp",
     "description": "Timer was made based on the study on humans, which shows that random interval breaks for 10 seconds, increase learning efficiency.",
@@ -19,21 +28,13 @@
     "techStack": ["HTML", "SCSS", "JavaScript", "React", "Vite"]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Metallica CNC",
     "imageUrl": "/images/projects/projects-metallica.webp",
     "description": "This is my first project of the website. I build it for CNC company. Site was ment to be easy and kept in minimalistic manner.",
     "githubUrl": "https://github.com/rafalgrzenia/Metallica-cnc.pl",
     "websiteUrl": "https://metallica-cnc.pl",
     "techStack": ["HTML", "CSS", "JavaScript"]
-  },
-  {
-    "id": 4,
-    "title": "Todo List",
-    "imageUrl": "/images/projects/projects-todo.webp",
-    "description": "Todo List app built with React that uses local storage to store user input and reload todo list after refresh",
-    "githubUrl": "https://github.com/rafalgrzenia/Advanced-Todo-List-React",
-    "websiteUrl": "https://rafalgrzenia.github.io/Advanced-Todo-List-React",
-    "techStack": ["HTML", "CSS", "React", "Vite"]
   }
+ 
 ]
