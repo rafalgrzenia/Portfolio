@@ -1,5 +1,4 @@
-import Header from "./Components/header/Header";
-import HrLine from "./Components/global/HrLine";
+import Header from "./Components/Header/Header";
 import Contact from "./Components/contact/Contact";
 import Footer from "./Components/footer/Footer";
 import Hero from "./Components/hero/Hero";
@@ -14,13 +13,9 @@ export default function App() {
       <ScrollToTopButton />
       <Header />
       <Hero />
-      <HrLine />
       <Projects />
-      <HrLine />
       <Skills />
-      <HrLine />
       <Contact />
-      <HrLine />
       <Footer />
     </>
   );

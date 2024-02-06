@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { copyToClipBoard } from "../../functions/copyToClipBoard";
 import { delay } from "../../functions/delay";
+import Separator from "../global/Separator";
 
 export default function Contact() {
   const [isCopied, setisCopied] = useState(false);
@@ -17,7 +18,8 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" >
+    <>
+     <section id="contact" >
       <div className="container flex flex-col items-center gap-12 sm:gap-[6rem]  ">
         <h2 className="text-[1.75rem] sm:text-[2rem] font-medium w-[11rem] sm:w-full sm:text-center">
           Contact me!
@@ -52,5 +54,8 @@ export default function Contact() {
         </div>
       </div>
     </section>
+    <Separator />
+    </>
+   
   );
 }
