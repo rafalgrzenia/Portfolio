@@ -6,8 +6,13 @@ import Projects from "./Components/projects/Projects";
 import Skills from "./Components/skills/Skills";
 import { ScrollToTopButton } from "./Components/global/ScrollToTopButton";
 import "./index.scss";
+import { useEffect } from "react";
 
 export default function App() {
+  useEffect(() => {
+    window.history.scrollRestoration = "manual";
+  }, []);
+
   return (
     <>
       <ScrollToTopButton />
