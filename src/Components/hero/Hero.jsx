@@ -1,21 +1,14 @@
-import portraitLarge from "/images/hero/portrait-large.webp";
-import portraitMedium from "/images/hero/portrait-medium.webp";
-import portraitSmall from "/images/hero/portrait-small.webp";
 import handEmoji from "/images/hero/hand-emoji.webp";
 import codingEmoji from "/images/hero/coding-emoji.webp";
 import { scrollToView } from "../../functions/scrollToView";
 import cv from "../../assets/Rafal_Grzenia_CV.pdf";
+import Portrait from "./Portrait";
 
 export default function Hero() {
   return (
     <section className="lg:pt-[3rem]">
-      <div className="container flex flex-col items-center gap-10 sm:flex-row sm:gap-0 lg:justify-evenly lg:pr-0">
-        <img
-          src={portraitLarge}
-          alt="Portrait"
-          srcSet={`${portraitLarge} 450w, ${portraitMedium} 340w, ${portraitSmall} 250w`}
-          className="block w-full max-w-[250px] sm:hidden aspect-square"
-        />
+      <div className="container flex flex-col items-center gap-10 sm:flex-row-reverse sm:gap-0 lg:justify-evenly lg:pr-0">
+        <Portrait />
         <div className="hero-text-content  flex flex-col gap-2 ml-4 md:ml-0 ">
           <div>
             <div className="flex gap-3 items-center ">
@@ -62,13 +55,6 @@ export default function Hero() {
             </a>
           </div>
         </div>
-
-        <img
-          src={portraitLarge}
-          alt="Portrait"
-          srcSet={`${portraitLarge} 450w, ${portraitMedium} 340w, ${portraitSmall} 250w`}
-          className="hidden w-full max-w-[250px] md:max-w-[280px] lg:max-w-[350px] sm:block aspect-square"
-        />
       </div>
     </section>
   );
