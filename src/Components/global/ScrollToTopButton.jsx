@@ -5,11 +5,11 @@ import { scrollToTop } from "../../functions/scrollToTop";
 export function ScrollToTopButton() {
   const [showButton, setShowButton] = useState(false);
 
-  useEffect(() => {
-    function handleScrollButtonVisibility() {
-      window.scrollY > 20 ? setShowButton(true) : setShowButton(false);
-    }
+  function handleScrollButtonVisibility() {
+    window.scrollY > 20 ? setShowButton(true) : setShowButton(false);
+  }
 
+  useEffect(() => {
     window.addEventListener("scroll", handleScrollButtonVisibility);
 
     return () => {
@@ -22,7 +22,7 @@ export function ScrollToTopButton() {
       {showButton && (
         <button
           onClick={scrollToTop}
-          className={`shadow-xl fixed bottom-5 right-8 text-2xl rounded-full  w-[3.5rem] h-[3.5rem] px-4 py-4 bg-gray-300 hover:bg-white transition-all`}
+          className={`shadow-xl fixed bottom-5 right-8 text-2xl rounded-full  w-[3.5rem] h-[3.5rem] px-4 py-4 bg-gray-300 hover:bg-white `}
         >
           <img src={chevronArrow} alt="arrow" />
         </button>
