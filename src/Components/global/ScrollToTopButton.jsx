@@ -18,15 +18,13 @@ export function ScrollToTopButton() {
   }, []);
 
   return (
-    <>
-      {showButton && (
-        <button
-          onClick={scrollToTop}
-          className={`shadow-xl fixed bottom-5 right-8 text-2xl rounded-full  w-[3.5rem] h-[3.5rem] px-4 py-4 bg-gray-300 hover:bg-white `}
-        >
-          <img src={chevronArrow} alt="arrow" />
-        </button>
-      )}
-    </>
+    <button
+      onClick={scrollToTop}
+      className={`shadow-xl fixed bottom-5 right-8 text-2xl rounded-full  w-[3.5rem] h-[3.5rem] px-4 py-4 bg-gray-300 hover:bg-white transition-all  duration-300 ${
+        showButton ? "opacity-100" : "opacity-0"
+      }`}
+    >
+      <img src={chevronArrow} alt="arrow" />
+    </button>
   );
 }
