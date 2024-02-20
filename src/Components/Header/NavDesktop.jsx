@@ -4,7 +4,7 @@ import { scrollToView } from "../../functions/scrollToView";
 
 export default function NavDesktop() {
   return (
-    <nav className={`hidden lg:block bg-background  pr-8`}>
+    <nav className={`hidden lg:block   pr-8`}>
       <ul className={`flex gap-[3.75rem] items-center `}>
         <li
           onClick={() => scrollToView("projects")}
