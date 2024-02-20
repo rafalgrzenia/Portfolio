@@ -1,8 +1,5 @@
 import ProjectContent from "./ProjectContent";
-import ProjectDescription from "./ProjectDescription";
 import ProjectImage from "./ProjectImage";
-import SocialButtons from "./SocialButtons";
-import TechStackButton from "./TechStackButton";
 
 export default function Project({
   id,
@@ -18,6 +15,7 @@ export default function Project({
     <div className="flex flex-col max-w-[400px] sm:max-w-[450px]">
       <ProjectImage priority={priority} imageUrl={imageUrl} title={title} />
       <ProjectContent
+        title={title}
         description={description}
         githubUrl={githubUrl}
         websiteUrl={websiteUrl}
