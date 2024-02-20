@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <header
       className={`mb-[3.75rem] sm:mb-20 sticky top-0 transition-colors duration-200 ${
-        scrolled ? "bg-slate-800/95" : "bg-black/90"
+        scrolled ? "bg-gray-900/95" : "bg-[#060606]"
       }`}
     >
       <div className="container  p-6 flex justify-between items-center lg:max-w-[1280px] ">
