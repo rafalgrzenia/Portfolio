@@ -11,11 +11,7 @@ export default function HeroContent() {
           <h2 className="text-white text-[1.75rem] font-medium lg:text-[2.5rem]">
             Hi
           </h2>
-          <img
-            src={handEmoji}
-            alt="hand-emoji"
-            className="h-[30px] w-[30px] lg:h-[40px] lg:w-[40px] aspect-square"
-          />
+          <img src={handEmoji} alt="hand-emoji" className="h-[40px] w-[40px] aspect-square" />
         </div>
         <div className="flex gap-3 items-center">
           <h2 className="text-white text-[1.75rem] font-medium lg:text-[2.5rem]">
@@ -24,7 +20,7 @@ export default function HeroContent() {
           <img
             src={codingEmoji}
             alt="coding emoji"
-            className=" h-[32px] w-[32px] lg:h-[40px] lg:w-[40px] "
+            className="h-[40px] w-[40px]"
           />
         </div>
         <h2 className="text-green text-xl font-medium sm:mt-2 lg:text-[2rem]">
