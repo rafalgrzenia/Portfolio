@@ -9,6 +9,9 @@ import "./index.scss";
 import { useEffect } from "react";
 
 export default function App() {
+
+  // Scroll Restoration feature
+
   useEffect(() => {
     window.history.scrollRestoration = "manual";
   }, []);
