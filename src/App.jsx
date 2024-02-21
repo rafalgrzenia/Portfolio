@@ -1,10 +1,10 @@
-import Header from "./Components/header/Header";
-import Contact from "./Components/contact/Contact";
-import Footer from "./Components/footer/Footer";
-import Hero from "./Components/hero/Hero";
-import Projects from "./Components/projects/Projects";
-import Skills from "./Components/skills/Skills";
-import { ScrollToTopButton } from "./Components/global/ScrollToTopButton";
+import Header from "./components/header/Header";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
+import Hero from "./components/hero/Hero";
+import Projects from "./components/projects/Projects";
+import Skills from "./components/skills/Skills";
+import { ScrollToTopButton } from "./components/global/ScrollToTopButton";
 import "./index.scss";
 import { useEffect } from "react";
 
