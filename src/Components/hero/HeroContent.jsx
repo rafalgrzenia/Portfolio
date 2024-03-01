@@ -40,7 +40,7 @@ export default function HeroContent() {
         >
           Contact
         </button>
-        <a href={cv} target="_blank">
+        <a href={cv} target="_blank" download="Rafal_Grzenia_CV">
           <button className="font-medium border text-lg border-green rounded-full text-green px-9 xs:px-12 py-[0.6rem]  transition-all duration-300 hover:text-black hover:bg-green hover:font-medium">
             CV
           </button>
