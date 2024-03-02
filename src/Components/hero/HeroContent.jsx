@@ -1,5 +1,5 @@
-import handEmoji from "/images/hero/hand-emoji.webp";
-import codingEmoji from "/images/hero/coding-emoji.webp";
+import handEmoji from "../../assets/images/hero/hand-emoji.webp";
+import codingEmoji from "../../assets/images/hero/coding-emoji.webp";
 import { scrollToView } from "../../functions/scrollToView";
 import cv from "../../assets/Rafal_Grzenia_CV.pdf";
 

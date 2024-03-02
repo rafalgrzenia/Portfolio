@@ -1,6 +1,6 @@
-import portraitLarge from "/images/hero/portrait-large.webp";
-import portraitMedium from "/images/hero/portrait-medium.webp";
-import portraitSmall from "/images/hero/portrait-small.webp";
+import portraitLarge from "../../assets/images/hero/portrait-large.webp";
+import portraitMedium from "../../assets/images/hero/portrait-medium.webp";
+import portraitSmall from "../../assets/images/hero/portrait-small.webp";
 
 export default function Portrait() {
   return (

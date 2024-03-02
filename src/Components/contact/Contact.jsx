@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { copyToClipBoard } from "../../functions/copyToClipBoard";
 import { delay } from "../../functions/delay";
 import Separator from "../global/Separator";

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import githublogo from "/images/header/github-icon.svg";
-import linkedinlogo from "/images/header/linkedin-icon.svg";
+import githublogo from "../../assets/images/header/github-icon.svg";
+import linkedinlogo from "../../assets/images/header/linkedin-icon.svg";
 import Hamburger from "./Hamburger";
 import { scrollToView } from "../../functions/scrollToView";
 

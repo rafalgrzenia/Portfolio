@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import chevronArrow from "/images/assets/chevron-up-arrow.svg";
+import chevronArrow from "../../assets/images/assets/chevron-up-arrow.svg";
 import { scrollToTop } from "../../functions/scrollToTop";
 
 export function ScrollToTopButton() {

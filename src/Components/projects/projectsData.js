@@ -1,7 +1,7 @@
- import projectPortfolio from "/images/projects/projects-portfolio.webp";
- import projectBasicBlog from "/images/projects/projects-basicblog.webp";
- import projectRandomTimer from "/images/projects/projects-randomTimer.webp";
- import projectMetallicaCnc from "/images/projects/projects-metallica.webp";
+ import projectPortfolio from "../../assets/images/projects/projects-portfolio.webp";
+ import projectBasicBlog from "../../assets/images/projects/projects-basicblog.webp";
+ import projectRandomTimer from "../../assets/images/projects/projects-randomTimer.webp";
+ import projectMetallicaCnc from "../../assets/images/projects/projects-metallica.webp";
 
 export const projectsData = [
   {
