@@ -1,4 +1,4 @@
-export default function ProjectImage({priority, imageUrl, title}) {
+export default function ProjectThumbnail({priority, imageUrl, title}) {
   return (
     <img
       width={550}

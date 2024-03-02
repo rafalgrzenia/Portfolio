@@ -1,8 +1,7 @@
 import ProjectContent from "./ProjectContent";
-import ProjectImage from "./ProjectImage";
+import ProjectThumbnail from "./ProjectThumbnail";
 
-export default function Project({
-  id,
+export default function ProjectCard({
   title,
   imageUrl,
   description,
@@ -13,7 +12,7 @@ export default function Project({
 }) {
   return (
     <div className="flex flex-col max-w-[400px] sm:max-w-[450px]">
-      <ProjectImage priority={priority} imageUrl={imageUrl} title={title} />
+      <ProjectThumbnail priority={priority} imageUrl={imageUrl} title={title} />
       <ProjectContent
         title={title}
         description={description}

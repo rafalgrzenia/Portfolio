@@ -1,4 +1,4 @@
-import Project from "./Project";
+import ProjectCard from "./ProjectCard/ProjectCard.jsx";
 import Separator from "../global/Separator";
 import { projectsData } from "./projectsData.js";
 
@@ -11,7 +11,7 @@ export default function Projects() {
 
           <div className="grid grid-cols-1  lg:grid-cols-2 gap-12 lg:gap-20">
             {projectsData.map((project) => (
-              <Project key={project.id} {...project} />
+              <ProjectCard key={project.id} {...project} />
             ))}
           </div>
 
