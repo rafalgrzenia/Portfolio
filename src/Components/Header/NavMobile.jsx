@@ -5,10 +5,10 @@ import Hamburger from "./Hamburger";
 import { scrollToView } from "../../functions/scrollToView";
 
 export default function NavMobile() {
-  const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
+  const [isHamburgerOpen, setIsHamburgerOpen] = useState(true);
 
   // document.addEventListener("click", (e) => {
-  //   if (!e.target.closest("nav")) return;
+  //   if (e.target.closest("nav")) return;
   //   setIsHamburgerOpen(false);
   // });
 
@@ -24,14 +24,14 @@ export default function NavMobile() {
       />
 
       <nav
-        className={`flex flex-col  items-end  absolute top-0 right-0  transition-all duration-700 lg:hidden`}
+        className={`${
+          isHamburgerOpen
+            ? "visible opacity-100 translate-x-0 "
+            : "invisible opacity-0 translate-x-full"
+        } flex flex-col  items-end  absolute top-0 right-0  transition-all duration-700 lg:hidden`}
       >
         <ul
-          className={`${
-            isHamburgerOpen
-              ? "visible opacity-100 translate-x-0 "
-              : "invisible opacity-0 translate-x-full"
-          } nav-ul flex flex-col  gap-[3.75rem] items-center ml-auto px-14 pt-28  bg-black/90 h-screen  transition-all duration-700`}
+          className={`nav-ul flex flex-col  gap-[3.75rem] items-center ml-auto px-14 pt-28  bg-black/90 h-screen  transition-all duration-700`}
         >
           <li
             onClick={() => {
