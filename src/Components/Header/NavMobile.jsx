@@ -5,7 +5,7 @@ import Hamburger from "./Hamburger";
 import { scrollToView } from "../../functions/scrollToView";
 
 export default function NavMobile() {
-  const [isHamburgerOpen, setIsHamburgerOpen] = useState(true);
+  const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
 
   // document.addEventListener("click", (e) => {
   //   if (e.target.closest("nav")) return;
