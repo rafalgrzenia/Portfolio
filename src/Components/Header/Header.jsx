@@ -23,7 +23,7 @@ export default function Header() {
 
   return (
     <header
-      className={`mb-[3.75rem] sm:mb-20 sticky top-0 transition-colors duration-200 ${
+      className={`mb-[3.75rem] sm:mb-20 sticky top-[-1px] transition-colors duration-200 ${
         scrolled ? "bg-gray-900/95" : "bg-[#060606]"
       }`}
     >

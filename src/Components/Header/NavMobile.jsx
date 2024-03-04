@@ -7,10 +7,10 @@ import { scrollToView } from "../../functions/scrollToView";
 export default function NavMobile() {
   const [isHamburgerOpen, setIsHamburgerOpen] = useState(false);
 
-  document.addEventListener("click", (e) => {
-    if (e.target.closest("nav")) return;
-    setIsHamburgerOpen(false);
-  });
+  // document.addEventListener("click", (e) => {
+  //   if (!e.target.closest("nav")) return;
+  //   setIsHamburgerOpen(false);
+  // });
 
   function toggleHamburger() {
     setIsHamburgerOpen((prev) => !prev);
@@ -18,20 +18,20 @@ export default function NavMobile() {
 
   return (
     <>
-      <nav
-        className={`flex flex-col  items-end  absolute top-0 right-0 pt-6 transition-all duration-700 lg:hidden`}
-      >
-        <Hamburger
-          toggleHamburger={toggleHamburger}
-          isHamburgerOpen={isHamburgerOpen}
-        />
+      <Hamburger
+        toggleHamburger={toggleHamburger}
+        isHamburgerOpen={isHamburgerOpen}
+      />
 
+      <nav
+        className={`flex flex-col  items-end  absolute top-0 right-0  transition-all duration-700 lg:hidden`}
+      >
         <ul
           className={`${
             isHamburgerOpen
               ? "visible opacity-100 translate-x-0 "
               : "invisible opacity-0 translate-x-full"
-          } nav-ul flex flex-col  gap-[3.75rem] items-center ml-auto px-14 pt-28 absolute bg-black/90 h-screen top-0 transition-all duration-700`}
+          } nav-ul flex flex-col  gap-[3.75rem] items-center ml-auto px-14 pt-28  bg-black/90 h-screen  transition-all duration-700`}
         >
           <li
             onClick={() => {

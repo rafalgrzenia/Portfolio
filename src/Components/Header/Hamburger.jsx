@@ -1,7 +1,7 @@
 export default function Hamburger({ toggleHamburger, isHamburgerOpen }) {
   return (
     <div
-      className="w-8 h-8 flex justify-around flex-col   flex-nowrap z-10  lg:hidden  mr-4"
+      className="w-8 h-8 flex justify-around flex-col absolute right-6 xs:right-8 md:right-16   flex-nowrap z-10  lg:hidden "
       onClick={toggleHamburger}
     >
       <div
