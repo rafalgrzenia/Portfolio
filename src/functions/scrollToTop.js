@@ -5,5 +5,5 @@ export function scrollToTop() {
       left: 0,
       behavior: "smooth",
     });
-  }, 100);
+  }, 200);
 }
